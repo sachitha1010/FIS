@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-		<title>College Management System</title>
+		<title>Faculty Information System</title>
 
 		<!-- Google font -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
@@ -18,12 +18,13 @@
 
 		<!-- Custom stlylesheet -->
 		<style media="screen">
-		body {
-	font-family: 'Montserrat', sans-serif;
-font-size: 15px;
-	font-weight: 400;
-	color: #798696;
-overflow-x:hidden;
+
+		body{
+	    font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+	    font-weight: 400;
+	    color: #798696;
+        overflow-x:hidden;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -70,7 +71,14 @@ ul,ol{
 }
 
 .white-text {
-color: #FFF;
+font-size: 50px;
+	text-shadow: 2px 2px 4px #FFF ;
+    color: #990033;
+}
+.lead-white-text{
+	font-size: 25px;
+	text-shadow: 2px 2px 2px #990033;
+	color: #FFF;
 }
 
 .section {
@@ -113,7 +121,7 @@ color: #FFF;
 	bottom:0;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#374050), to(#798696));
 	background-image: linear-gradient(to bottom, #374050 0%, #798696 100%);
-	opacity: 0.3;
+	opacity: 0.65;
 }
 
 /* --- Buttons --- */
@@ -532,10 +540,10 @@ textarea {
 				<nav id="nav" class="navbar-fixed-top">
 					<ul class="main-menu nav navbar-nav navbar-right">
 						<li><a href="/">Home</a></li>
-						<li><a href="/instructors">Instructors</a></li>
-						<li><a href="/departments">Departments</a></li>
-						<li><a href="/students">Students</a></li>
-						<li><a href="/sections">Sections</a></li>
+						<li><a href="/instructors">Faculty</a></li>
+						<li><a href="/departments">Books</a></li>
+						<li><a href="/students">Paper</a></li>
+						<li><a href="/sections">research</a></li>
 						<!-- <li> <a href="#">Teaches</a> </li> -->
 					</ul>
 				</nav>
@@ -549,7 +557,7 @@ textarea {
 		<div id="home" class="hero-area">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(psg_bg.jpeg)"></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(https://i.ytimg.com/vi/77yTMzOATaQ/maxresdefault.jpg)"></div>
 			<!-- /Backgound Image -->
 
 			<div class="home-wrapper">
@@ -557,8 +565,8 @@ textarea {
 					<div class="row">
 						<div class="col-md-8">
 							<h1 class="white-text">Faculty Information System</h1>
-							<p class="lead white-text">A college management system is a cloud-based educational ERP software that allows higher education institutions and colleges to handle online admission, student enrollment, students' attendance, online fees, grades, assignments, library books, and other aspects of their operations.</p>
-							<p class="lead white-text">The numerous functions in the College management process are the subject of this project. The fundamental concept is to add a proper process to the system. Many functions are available in our current system, including registration, student search, fees, attendance, exam records, and student performance.</p>
+							<p class="lead-white-text"><i>Our FIS works to organize all the information about CSE Faculty into one platform.</i></p>
+							<p class="lead-white-text"><i>We aim to keep track of faculty information from basic details to each and every faculty's invaluable achievements and contributions.</i></p>
 						</div>
 					</div>
 				</div>
@@ -577,16 +585,16 @@ textarea {
 
 					<div class="col-md-6">
 						<div class="section-header">
-							<h2>Welcome to FIS</h2>
-							<p class="lead">The main entity sets of the database are Students, Instructors, Departments and Sections.</p>
+							<h2>Welcome to FIS!</h2>
+							<p class="lead">The main entity sets of the database are Faculty, Books, Paper, Research.</p>
 						</div>
 
 						<!-- feature -->
 						<div class="feature">
 							<i class="feature-icon fa fa-flask"></i>
 							<div class="feature-content">
-								<a href="/departments"><h4>Departments </h4></a>
-								<p>Click to view the list of departments in the college.</p>
+								<a href="/departments"><h4>Books</h4></a>
+								<p>Click to view the info about books published by faculty.</p>
 							</div>
 						</div>
 						<!-- /feature -->
@@ -595,8 +603,8 @@ textarea {
 						<div class="feature">
 							<i class="feature-icon fa fa-users"></i>
 							<div class="feature-content">
-								<a href="/instructors"><h4>Instructors</h4></a>
-								<p>Click to view the info about instructors of the college.</p>
+								<a href="/instructors"><h4>Faculty</h4></a>
+								<p>Click to view the details of faculty.</p>
 							</div>
 						</div>
 						<!-- /feature -->
@@ -605,8 +613,8 @@ textarea {
 						<div class="feature">
 							<i class="feature-icon fab fa-simplybuilt"></i>
 							<div class="feature-content">
-								<a href="/sections"><h4>Sections</h4></a>
-								<p>Click to view the details about sections in the college.</p>
+								<a href="/sections"><h4>Paper</h4></a>
+								<p>Click to view the details about papers published.</p>
 							</div>
 						</div>
 						<!-- /feature -->
@@ -615,7 +623,7 @@ textarea {
 
 					<div class="col-md-6">
 						<div class="about-img">
-							<img src="https://i.ytimg.com/vi/KZ7uzZQHnLw/mqdefault.jpg" alt="">
+							<img src="https://www.psgtech.edu/educms/sorces/CSE/deptanim/fp/9.jpg" alt="">
 						</div>
 					</div>
 

@@ -1,12 +1,13 @@
 {
   "name": "cms",
   "version": "0.0.1",
-  "description": "A college management system project for my DBMS course",
+  "description": "A FIS to store and retrieve PSG faculty data.",
   "main": "index.js",
   "scripts": {
+    "dev":"nodemon src/index.js -L -e js,html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kshitij Chauhan",
+  "author": "Group 4",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
