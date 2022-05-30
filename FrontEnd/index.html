@@ -79,6 +79,7 @@ font-size: 50px;
 	font-size: 25px;
 	text-shadow: 2px 2px 2px #990033;
 	color: #FFF;
+	background-color: #990033;
 }
 
 .section {
@@ -121,7 +122,7 @@ font-size: 50px;
 	bottom:0;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#374050), to(#798696));
 	background-image: linear-gradient(to bottom, #374050 0%, #798696 100%);
-	opacity: 0.65;
+	opacity: 0.4;
 }
 
 /* --- Buttons --- */
@@ -203,7 +204,7 @@ textarea {
 }
 
 #header.transparent-nav {
-	position:absolute;
+	position:absolute; 
 	background-color: transparent;
 }
 
@@ -212,6 +213,7 @@ textarea {
 }
 
 .main-menu li a {
+
 	text-transform:uppercase;
 	-webkit-transition:0.2s all;
 	transition:0.2s all;
@@ -261,6 +263,8 @@ textarea {
 		-webkit-transition: 0.4s all cubic-bezier(.77,0,.18,1);
 		transition: 0.4s all cubic-bezier(.77,0,.18,1);
 		z-index:9;
+		
+		
 	}
 
 	#header.nav-collapse #nav{
@@ -284,7 +288,7 @@ textarea {
 /* -- Mobile Toggle Btn -- */
 .navbar-toggle {
 	position:fixed;
-	right:0;
+	right: 0;
 	padding: 0;
 	height: 40px;
 	width: 40px;
@@ -514,8 +518,9 @@ textarea {
 	text-align:center;
 	margin-top:40px;
 }
-
-
+.navbar-nav{
+	margin-right: 30px;
+}
 		</style>
 
     </head>
@@ -557,7 +562,7 @@ textarea {
 		<div id="home" class="hero-area">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(https://i.ytimg.com/vi/77yTMzOATaQ/maxresdefault.jpg)"></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(https://psgtech.edu/images/slider/slider1.jpg)"></div>
 			<!-- /Backgound Image -->
 
 			<div class="home-wrapper">
